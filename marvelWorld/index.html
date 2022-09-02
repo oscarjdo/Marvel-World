@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Marvel_Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Roboto+Condensed&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Marvel World</title>
+</head>
+<body bg-dark>
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark px-md-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/marvel-banner.png" alt="" width="300">
+            </a>
+          <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link ps-2 mx-2 mx-md-0 bdr-b active" aria-current="page" href="#">Home</a>
+              <a class="nav-link ps-2 mx-2 mx-md-0 bdr-b" href="#">Series</a>
+              <a class="nav-link ps-2 mx-2 mx-md-0 bdr-b" href="#">Films</a>
+              <a class="nav-link ps-2 mx-2 mx-md-0 bdr-b" href="#">Questions</a>
+              <a class="nav-link ps-2 mx-2 mx-md-0 pb-0" href="#">About</a>
+            </div>
+          </div>
+         </div>
+  </nav>
+
+  <!-- CARROUSEL -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/movie1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/movie2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/movie3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- FAKE AD - RIBBON -->
+  <div id="container-ribbon" class="d-flex align-items-center">
+    <div id="ribbon-item" class="shadow me-3 rounded shadow">
+      <div class="row h-100 justify-content-center
+       px-4 align-items-center">
+        <div class="col-sm">
+          <img id="logo-ribbon" src="img/american-captian.png" alt="figure of American captian" class="w-100">
+        </div>
+        <div class="col-sm">
+          <p id="text-ribbon" class="text-white">Click <a href="#" class="text-light">Here</a> to win an American Captian figure</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-white">This is a fake ad</p>
+  </div>
+
+  <!-- SEPARATOR -->
+  <div id="separator-ribbon-container" class="pt-4">
+    <div id="separator-ribbon-layout">
+    </div>
+  </div>
+
+  <!-- UPCOMING FILMS -->
+  <div class="container-fluid film-container">
+    <div class="container mb-5 text-center text-md-start">
+      <h2 class="border-bottom border-dark pb-2 px-5 ps-md-4">Upcoming Movies</h2>
+    </div>
+    <div class="row m-auto mx-xl-5">
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film10.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Black Panther: Wakanda Forever</p>
+        <p class=" fw-bold font-rc mb-0">NOV 11, 2022</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film01.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Ant-Man and The Wasp: Quantumania</p>
+        <p class=" fw-bold font-rc mb-0">FEB 17, 2023</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film02.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Guardians if the Galaxy Volumen 3</p>
+        <p class=" fw-bold font-rc mb-0">MAY 5,2023</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film03.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">The Marvels</p>
+        <p class=" fw-bold font-rc mb-0">JUL 28,2023</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film04.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Blade</p>
+        <p class=" fw-bold font-rc mb-0">NOV 3, 2023</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film05.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Captian America: New World Order</p>
+        <p class=" fw-bold font-rc mb-0">MAY 3, 2024</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film06.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Thunderbolts</p>
+        <p class=" fw-bold font-rc mb-0">JUL 26, 2024</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film07.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Fantastic Four</p>
+        <p class=" fw-bold font-rc mb-0">NOV 8, 2024</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film08.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Avengers: The Kang Dynasty</p>
+        <p class=" fw-bold font-rc mb-0">MAY 2, 2025</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/future-film09.jpg" alt="Future Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Avengers: Secret Wars</p>
+        <p class=" fw-bold font-rc mb-0">NOV 7, 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LATEST FILMS -->
+  <div class="container-fluid film-container">
+    <div class="container mb-5 text-center text-md-start">
+      <h2 class="border-bottom border-dark pb-2 px-5 ps-md-4">Latest Movies</h2>
+    </div>
+    <div id="container-latest-film" class="row m-auto mx-xl-5">
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film01.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Thor: Love and Thunder</p>
+        <p class=" fw-bold font-rc mb-0">2022</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film02.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Doctor Strange in the Multiverse of Madness</p>
+        <p class=" fw-bold font-rc mb-0">2022</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film03.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Spider-Man: No Way Home</p>
+        <p class=" fw-bold font-rc mb-0">2021</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film04.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Eternals</p>
+        <p class=" fw-bold font-rc mb-0">2021</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film05.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Shang-Chi and The Legend of The Ten Rings</p>
+        <p class=" fw-bold font-rc mb-0">2021</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film06.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Black Widow</p>
+        <p class=" fw-bold font-rc mb-0">2021</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film07.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Spider-Man: Far From Home</p>
+        <p class=" fw-bold font-rc mb-0">2019</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film08.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Avengers: Endgame</p>
+        <p class=" fw-bold font-rc mb-0">2019</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film09.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Captain Marvel</p>
+        <p class=" fw-bold font-rc mb-0">2019</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film10.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Ant-Man and The Wasp</p>
+        <p class=" fw-bold font-rc mb-0">2018</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film11.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Avengers: Infinity War</p>
+        <p class=" fw-bold font-rc mb-0">2018</p>
+      </div>
+      <div class="film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3 d-none last-latest-film">
+        <img class="img-fluid rounded-top mb-1" src="img/latest-film12.jpg" alt="Latest Film" srcset="">
+        <p class="fs-6 lh-1 mb-2 font-bitter">Black Panther</p>
+        <p class=" fw-bold font-rc mb-0">2018</p>
+      </div>
+      
+      <div id="container-btn-new-latest-film" class="btn col-4 col-md-3 col-lg-2 d-flex align-items-center justify-content-center">
+        <button id="btn-new-latest-film" type="button">More</button>
+      </div>
+      <div class="collapse">
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film13.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Thor: Ragnarokr</p>
+          <p class=" fw-bold font-rc mb-0">2017</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film14.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Spider-Man: Homecoming</p>
+          <p class=" fw-bold font-rc mb-0">2017</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film15.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Guardians of the Galaxy Vol. 2</p>
+          <p class=" fw-bold font-rc mb-0">2017</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film16.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Doctor Strange</p>
+          <p class=" fw-bold font-rc mb-0">2016</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film17.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Captain America: Civil War</p>
+          <p class=" fw-bold font-rc mb-0">2016
+          </p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film18.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Ant-Man</p>
+          <p class=" fw-bold font-rc mb-0">2015
+          </p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film19.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Avengers: Age of Ultron</p>
+          <p class=" fw-bold font-rc mb-0">2015</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film20.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Guardians of the Galaxy</p>
+          <p class=" fw-bold font-rc mb-0">2014
+          </p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film21.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Captain America: The Winter Soldier</p>
+          <p class=" fw-bold font-rc mb-0">2014</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film22.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Thor: The Dark World</p>
+          <p class=" fw-bold font-rc mb-0">2013</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film23.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Iron Man 3</p>
+          <p class=" fw-bold font-rc mb-0">2013</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film24.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">The Avengers</p>
+          <p class=" fw-bold font-rc mb-0">2012</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film25.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Captain America: The First Avenger</p>
+          <p class=" fw-bold font-rc mb-0">2011</p>
+        </div>
+        <div class="new-latest-film film col-4 col-md-3 col-lg-2 rounded p-1 pb-0 mb-3">
+          <img class="img-fluid rounded-top mb-1" src="img/latest-film26.jpg" alt="Latest Film" srcset="">
+          <p class="fs-6 lh-1 mb-2 font-bitter">Thor</p>
+          <p class=" fw-bold font-rc mb-0">2011</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEPARATOR -->
+  <div class="separator-film-game mb-4"></div>
+
+  <!-- GAMES AND ASIDE -->
+  <div class="container-fluid">
+    <div class="text-center">
+      <h2>Games</h2>
+      <div class="container m-auto row">
+        <div class="col-md-6 pb-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="img/game-avengers.jpg" class="img-fluid rounded-start" alt="Marvel's Avengers game">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Marvel's Avengers</h5>
+                  <p class="card-text">Marvel's Avengers is a third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay. The game features a combat system chaining attacks, dodges, abilities, skills and elements during a combat phase.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pb-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="img/game-sm.jpg" class="img-fluid rounded-start" alt="Marvel's Avengers game">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Marvel's Spider-Man Miles Morales</h5>
+                  <p class="card-text">The game is a spin-off/continuation of Marvel's Spider-Man, and depicts Miles' struggle to balance the duties of his civilian persona and his role as the second Spider-Man when his new home, Harlem, is threatened by a war between the Roxxon Energy Corporation and the Tinkerer's high-tech criminal army, the Underground.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pb-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="img/marvelVSinfinite.jpg" class="img-fluid rounded-start" alt="Marvel's Avengers game">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Marvel vs. Capcom</h5>
+                  <p class="card-text">Capcom is a series of crossover fighting games developed and published by Capcom, featuring characters from their own video game franchises and comic book series published by Marvel Comics.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pb-3">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <img src="img/game-GG.jpg" class="img-fluid rounded-start" alt="Marvel's Avengers game">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Marvel's Guardians of the Galaxy</h5>
+                  <p class="card-text">Set early on in their career as heroes for hire, the Guardians of the Galaxy Game lets you take control of Peter Quill, aka Starlord, as you take on ludicrous jobs with your band of misfits as you talk (and shoot) your way out of deadly situations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid row">
+    <div class="col container w-75 m-auto text-md-center text-white">
+      <img src="img/marvel-banner.png" alt="" srcset="" class="img-fluid">
+      <p>Internet access required for online features. For more info, go to support.nintendo.com.</p>
+      <p>Copyright 2022</p>
+    </div>
+  </footer>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
